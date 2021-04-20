@@ -1,0 +1,169 @@
+.nav-wrapper-tours {
+    // background-color: red;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    nav {
+      max-width: 980px;
+      height: 90px;
+      border-bottom: solid 2px #000;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      align-items: center;
+  
+      .logo-about {
+        position: relative;
+        height: 42px;
+        width: 92px;
+        border: solid 2px #000;
+  
+        span {
+          position: absolute;
+          bottom: -5px;
+          color: #000;
+        }
+      }
+  
+      .links {
+        width: 350px;
+        display: flex;
+        justify-content: space-around;
+  
+        a {
+          text-decoration: none;
+          color: #000;
+          font-size: 15px;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        }
+  
+        span {
+          color: #79addc;
+        }
+      }
+    }
+  }
+// styling for images
+section {
+    width: 981px;
+    position: relative;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+    .one {
+      position: absolute;
+      bottom: -15px;
+    }
+    .three-img {
+      padding-top: 5px;
+      padding-bottom: 15px;
+    }
+  }
+  
+  .hero-us {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(31, 31, 31, 0.5),
+        rgba(196, 193, 193, 0.5),
+        rgba(31, 31, 31, 0.5)
+      ),
+      url(../images/tours/tour-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 981px;
+    height: 413px;
+    margin: 80px auto 0 auto;
+    position: relative;
+  
+    .hero-title {
+      position: absolute;
+      top: 10px;
+      left: 30px;
+    }
+  
+    .title-us {
+        padding-left: 15px;
+      font-size: 80px;
+      text-align: center;
+      font-weight: 90;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: #ffffff;
+      // text-shadow: 2px 2px #000;
+    }
+  
+    .title-offer {
+      position: relative;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 80;
+      color: #ffffff;
+      bottom: -35px;
+      right: 600px;
+    }
+  }
+  
+  // styling for the word "day"
+  .day1 {
+    font-size: 60px;
+    //   background-color: aqua;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 90;
+    position: relative;
+    display: inline;
+    top: 100px;
+    left: 450px;
+  
+    //   styling for the line under "about"
+    .tour-border {
+      border-bottom: 2px solid black;
+      position: absolute;
+      width: 70%;
+      left: 0;
+      bottom: -5px;
+    }
+  }
+  // styling for about paragraphy
+  .tour-paragraph {
+    position: relative;
+    background-color: cornflowerblue;
+    margin-left: 300px;
+    margin-right: 300px;
+    top: 130px;
+    left: 150px;
+  
+    .tour-para {
+      position: absolute;
+      width: 980px;
+      height: 96px;
+      font-size: 18px;
+      font-weight: 300;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      text-align: left;
+    }
+  }
+  
+  .book-now {
+    border-radius: 50in;
+    width: 130px;
+    height: 40px;
+    background-color: #79addc;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  
+    h3 {
+      font-weight: 90;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: #ffffff;
+      text-align: center;
+      font-size: 15px;
+      bottom: 5px;
+    }
+  }
+  

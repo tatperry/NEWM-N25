@@ -1,0 +1,159 @@
+//
+// styling for the
+// nav bar
+.nav-wrapper-about {
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  nav {
+    max-width: 980px;
+    height: 90px;
+    border-bottom: solid 2px #000;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-about {
+      position: relative;
+      height: 42px;
+      width: 92px;
+      border: solid 2px #000;
+
+      span {
+        position: absolute;
+        bottom: -5px;
+        color: #000;
+      }
+    }
+
+    .links {
+      width: 350px;
+      display: flex;
+      justify-content: space-around;
+
+      a {
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      span {
+        color: #79addc;
+      }
+    }
+  }
+}
+
+// styling for the title "special offers"
+.special {
+  font-size: 60px;
+  //   background-color: aqua;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 90;
+  position: relative;
+  display: inline;
+  top: 150px;
+  left: 450px;
+
+  //   styling for the line under "Spain"
+  .special-border {
+    border-bottom: 2px solid black;
+    position: absolute;
+    width: 70%;
+    left: 0;
+    bottom: -5px;
+  }
+}
+// header for spain
+.spain {
+  //   font-size: 30px;
+  //   //   background-color: aqua;
+  //   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  //   font-weight: 90;
+  //   position: relative;
+  //   display: inline;
+  //   top: 230px;
+  //   left: 670px;
+
+  //   styling for the line under "about"
+  .spain-border {
+    border-bottom: 2px solid black;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    bottom: -5px;
+  }
+
+  .percent {
+    color: #ff7d38;
+    font-size: 20px;
+  }
+  // paragraphy under spain
+  /* .spain-para {
+    position: absolute;
+    width: 390px;
+    height: 131px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: left;
+    top: 70px;
+  } */
+  // learn more button
+}
+// header for thailand
+.thailand {
+  //   font-size: 30px;
+  //   //   background-color: aqua;
+  //   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  //   font-weight: 90;
+  //   position: relative;
+  //   display: inline;
+  //   top: 440px;
+  //   left: 670px;
+
+  //   styling for the line under "about"
+  .thai-border {
+    border-bottom: 2px solid black;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    bottom: -5px;
+  }
+
+  .percent {
+    color: #ff7d38;
+    font-size: 20px;
+  }
+  .thailand-para {
+    // position: absolute;
+    // width: 490px;
+    // height: 131px;
+    // font-size: 12px;
+    // font-weight: 300;
+    // font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    //   sans-serif;
+    // text-align: left;
+    // top: 900px;
+  }
+}
+
+// image styling
+// spain
+.spain-img {
+  position: absolute;
+  top: 660px;
+  left: 450px;
+  flex-direction: row;
+}
+// thailand
+.thai-img {
+  position: absolute;
+  top: 300px;
+  left: 450px;
+  flex-direction: row;
+}

@@ -1,0 +1,291 @@
+.nav-wrapper {
+  // background-color: red;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  nav {
+    max-width: 980px;
+    height: 90px;
+    border-bottom: solid 2px #ffffff;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      position: relative;
+      height: 42px;
+      width: 92px;
+      border: solid 2px #ffffff;
+
+      span {
+        position: absolute;
+        bottom: -5px;
+        color: white;
+      }
+    }
+
+    .links {
+      width: 350px;
+      display: flex;
+      justify-content: space-around;
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      span {
+        color: #79addc;
+      }
+    }
+  }
+}
+// styling for hero image/ possible to change?
+.hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(31, 31, 31, 0.7),
+      rgba(58, 58, 58, 0.733),
+      rgba(31, 31, 31, 0.7)
+    ),
+    url(../images/hero.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // styling for travel-fly on hero image
+  .centered-content h1 {
+    font-size: 60px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    display: flex;
+    padding-top: 45px;
+    align-items: center;
+    justify-content: center;
+  }
+  // styling for paragraph in hero image
+  .pink {
+    width: 416px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+  }
+  // styling for read more button
+  .blue-box {
+    margin: 0 auto;
+    width: 140px;
+    height: 50px;
+    // font-size: 15px;
+    color: #ffffff;
+    background-color: #79addc;
+
+    span {
+      margin-top: 50px;
+      font-weight: lighter;
+      font-size: 20px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      padding-left: 15px;
+    }
+  }
+}
+
+// styling for three boxes under the hero image
+section {
+  width: 980px;
+  // height: 293px;
+  display: flex;
+  margin: 0 auto;
+  // isreal image with header and text
+  .isreal-home {
+    height: 304px;
+    width: 236px;
+    // background-color: aqua;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(31, 31, 31, 0.5),
+        rgba(32, 32, 32, 0.527),
+        rgba(31, 31, 31, 0.5)
+      ),
+      url(../images/tours/tour-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -40px;
+    // styling for header 1
+    h1 {
+      padding-top: 30px;
+      color: #ffffff;
+      font-size: 50px;
+      font-weight: bolder;
+      font-family: "proxi-nova";
+      text-align: center;
+      justify-content: center;
+    }
+    p {
+      font-family: "proxi-nova";
+      font-weight: normal;
+      font-size: 25px;
+      color: #ffffff;
+      text-align: center;
+      justify-content: center;
+    }
+    // styling for h3
+    h3 {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: lighter;
+      font-family: "proxi-nova";
+      text-align: center;
+      padding-top: -50px;
+    }
+  }
+  // usa image with header and text
+  .usa-home {
+    height: 304px;
+    width: 236px;
+
+    background-image: linear-gradient(
+        to bottom,
+        rgba(31, 31, 31, 0.5),
+        rgba(32, 32, 32, 0.527),
+        rgba(31, 31, 31, 0.5)
+      ),
+      url(../images/tours/tour-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -40px;
+    h1 {
+      padding-top: 25px;
+      color: #ffffff;
+      font-size: 50px;
+      font-family: "proxi-nova";
+      text-align: center;
+    }
+    p {
+      font-family: "proxi-nova";
+      font-weight: normal;
+      font-size: 25px;
+      color: #ffffff;
+      text-align: center;
+      justify-content: center;
+    }
+    h3 {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: lighter;
+      font-family: "proxi-nova";
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+  // autralia image with header and text
+  .australia-home {
+    height: 304px;
+    width: 236px;
+    // background-color: aqua;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(31, 31, 31, 0.5),
+        rgba(32, 32, 32, 0.527),
+        rgba(31, 31, 31, 0.5)
+      ),
+      url(../images/tours/tour-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -40px;
+    h1 {
+      padding-left: 2px;
+      padding-top: 15px;
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "proxi-nova";
+      text-align: center;
+    }
+    p {
+      font-family: "proxi-nova";
+      font-weight: normal;
+      font-size: 25px;
+      color: #ffffff;
+      text-align: center;
+      justify-content: center;
+    }
+    h3 {
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: lighter;
+      font-family: "proxi-nova";
+      text-align: center;
+    }
+  }
+  // styling for "learn more" button
+  .learn-more {
+    height: 40px;
+    width: 120px;
+    background-color: #79addc;
+    border-radius: 50px;
+    // margin-top: 50px;
+    margin-left: 50px;
+
+    h3 {
+      font-size: 15px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      text-align: center;
+      justify-content: center;
+      //   padding-bottom: 55px;
+    }
+  }
+}
+// all three images
+section {
+  // height: 900px;
+  width: 980px;
+  //   background-color: blue;
+  margin: 0 auto;
+
+  .header {
+    height: 80px;
+    width: 980px;
+    padding-left: 40px;
+    font-size: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  }
+}
+@media only all and (max-width: 800px) {
+  .nav-wrapper {
+    nav {
+      padding: 0 10px;
+    }
+  }
+  .learn-more {
+    width: 304px;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+  }
+}

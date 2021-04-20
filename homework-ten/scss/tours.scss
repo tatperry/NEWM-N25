@@ -1,0 +1,463 @@
+.hero-tour1 {
+    background-image: url(../images/tours/tour-04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 981px;
+    height: 200px;
+    margin: 80px auto 0 auto;
+    position: relative;
+  
+    .hero-title {
+      position: absolute;
+      bottom: 50px;
+      left: 300px;
+      justify-content: center;
+    }
+  
+    .title-tour {
+      font-size: 60px;
+      text-align: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: #ffffff;
+      text-shadow: 2px 2px #000;
+      justify-content: center;
+    }
+  }
+  
+  section {
+    width: 980px;
+    height: 293px;
+    display: flex;
+    margin: 0 auto;
+    // isreal image with header and text
+    .isreal {
+      height: 304px;
+      width: 236px;
+      background-color: aqua;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(31, 31, 31, 0.5),
+          rgba(196, 193, 193, 0.5),
+          rgba(31, 31, 31, 0.5)
+        ),
+        url(../images/tours/tour-01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      // margin-top: -40px;
+      // styling for header 1
+      h1 {
+        padding-top: 5px;
+        color: #ffffff;
+        font-size: 90px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        justify-content: center;
+      }
+      p{
+          font-size: 20px;
+          color: #ffffff;
+          justify-content: center;
+          text-align: center;
+          padding-bottom: 15px;
+      }
+      // styling for h3
+      h3 {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        justify-content: center;
+        padding-top: 0px;
+      }
+      a {
+        color: #ffffff;
+      }
+    }
+    // usa image with header and text
+    .usa {
+      height: 304px;
+      width: 236px;
+  
+      background-image: linear-gradient(
+          to bottom,
+          rgba(31, 31, 31, 0.5),
+          rgba(196, 193, 193, 0.5),
+          rgba(31, 31, 31, 0.5)
+        ),
+        url(../images/tours/tour-02.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      // margin-top: -40px;
+      h1 {
+        padding-top: 5px;
+        color: #ffffff;
+        font-size: 83px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+      }
+      p{
+        font-size: 20px;
+        color: #ffffff;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+      h3 {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+      }
+      a {
+        color: #ffffff;
+      }
+    }
+    // autralia image with header and text
+    .australia {
+      height: 304px;
+      width: 236px;
+      background-color: aqua;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(31, 31, 31, 0.5),
+          rgba(196, 193, 193, 0.5),
+          rgba(31, 31, 31, 0.5)
+        ),
+        url(../images/tours/tour-03.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      // margin-top: -40px;
+      h1 {
+        padding-left: 2px;
+        padding-top: 5px;
+        color: #ffffff;
+        font-size: 63px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+      }
+      p{
+        font-size: 20px;
+        color: #ffffff;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+      h3 {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+      }
+      a {
+        color: #ffffff;
+      }
+    }
+    .newZ {
+      height: 304px;
+      width: 236px;
+      background-color: aqua;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(31, 31, 31, 0.5),
+          rgba(196, 193, 193, 0.5),
+          rgba(31, 31, 31, 0.5)
+        ),
+        url(../images/tours/tour-04.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      // margin-top: -40px;
+      h1 {
+        padding-left: 2px;
+        padding-top: 45px;
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+      }
+      p{
+        font-size: 20px;
+        color: #ffffff;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+      h3 {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+      }
+      a {
+        color: #ffffff;
+      }
+    }
+    .france {
+      height: 304px;
+      width: 236px;
+      background-color: aqua;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(31, 31, 31, 0.5),
+          rgba(196, 193, 193, 0.5),
+          rgba(31, 31, 31, 0.5)
+        ),
+        url(../images/tours/tour-05.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      // margin-top: -40px;
+      // styling for header 1
+      h1 {
+        padding-top: 5px;
+        color: #ffffff;
+        font-size: 65px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        justify-content: center;
+      }
+      p{
+        font-size: 20px;
+        color: #ffffff;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+      // styling for h3
+      h3 {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        padding-top: -50px;
+      }
+      a {
+        color: #ffffff;
+      }
+    }
+    .egypt {
+      height: 304px;
+      width: 236px;
+      background-color: aqua;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(31, 31, 31, 0.5),
+          rgba(196, 193, 193, 0.5),
+          rgba(31, 31, 31, 0.5)
+        ),
+        url(../images/tours/tour-06.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      // margin-top: -40px;
+      // styling for header 1
+      h1 {
+        padding-top: 5px;
+        color: #ffffff;
+        font-size: 65px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        justify-content: center;
+      }
+      p{
+        font-size: 20px;
+        color: #ffffff;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+      // styling for h3
+      h3 {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        padding-top: -50px;
+      }
+      a {
+        color: #ffffff;
+      }
+    }
+    // Banff
+    .japan {
+      height: 304px;
+      width: 236px;
+      background-color: aqua;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(31, 31, 31, 0.5),
+          rgba(196, 193, 193, 0.5),
+          rgba(31, 31, 31, 0.5)
+        ),
+        url(../images/tours/tour-07.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      // margin-top: -40px;
+      // styling for header 1
+      h1 {
+        padding-top: 5px;
+        color: #ffffff;
+        font-size: 65px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        justify-content: center;
+      }
+      p{
+        font-size: 20px;
+        color: #ffffff;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+      // styling for h3
+      h3 {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        padding-top: -50px;
+      }
+      a {
+        color: #ffffff;
+      }
+    }
+    // Grand Teton
+    .canada {
+      height: 304px;
+      width: 236px;
+      background-color: aqua;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(31, 31, 31, 0.5),
+          rgba(196, 193, 193, 0.5),
+          rgba(31, 31, 31, 0.5)
+        ),
+        url(../images/tours/tour-08.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      // margin-top: -40px;
+      // styling for header 1
+      h1 {
+        padding-top: 5px;
+        color: #ffffff;
+        font-size: 65px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        justify-content: center;
+      }
+      p{
+        font-size: 20px;
+        color: #ffffff;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+      // styling for h3
+      h3 {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        padding-top: -50px;
+      }
+      a {
+        color: #ffffff;
+      }
+    }
+    // Arches National Park
+    .uae {
+      height: 304px;
+      width: 236px;
+      background-color: aqua;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(31, 31, 31, 0.5),
+          rgba(196, 193, 193, 0.5),
+          rgba(31, 31, 31, 0.5)
+        ),
+        url(../images/tours/tour-09.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      // margin-top: -40px;
+      // styling for header 1
+      h1 {
+        padding-top: 5px;
+        color: #ffffff;
+        font-size: 83px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        justify-content: center;
+      }
+      p{
+        font-size: 20px;
+        color: #ffffff;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+      // styling for h3
+      h3 {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: "proxi-nova";
+        text-align: center;
+        padding-top: -50px;
+      }
+      a {
+        color: #ffffff;
+      }
+    }
+}
